@@ -122,6 +122,7 @@ $("document").ready(function(){
     $( "#textline2" ).show()
 
     $( "#clickline" ).delay(800).hide(400, "easeOutBounce")
+
  })
 
   $( ".Line2" ).hover(function() {
@@ -129,7 +130,7 @@ $("document").ready(function(){
   });
 
   $( ".Line2" ).click(function() {
-    $( this ).append("<div><a href=\"https://suasmile.cargo.site/\">-</a></div>")
+    window.location.href = "https://suasmile.cargo.site/";    
   
   });
 
@@ -255,7 +256,7 @@ $("document").ready(function(){
    // }
 
    $( ".Line2" ).click(function() {
-    $( this ).append("<div><a href=\"https://suasmile.cargo.site/\">-</a></div>")
+      window.location.href = "https://suasmile.cargo.site/";    
   });
   
  })
