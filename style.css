@@ -1,0 +1,227 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+
+}
+
+.cursor{
+    position: fixed;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    z-index: 999;
+ 
+    transition: transform 0.2s;
+}
+
+html,
+* {
+  cursor: none;
+}
+
+.Container{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display:grid;
+}
+
+.Item{
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: flex-grow .7s;
+}
+
+.Line{
+    width: 70px;
+    height: 0px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 0vh;
+    transition: flex-grow .7s;
+    
+    border: 1px solid #FFFFFF;
+    /*transform: rotate(-130.44deg);*/
+}
+
+Line:hover{
+    width: 50vh;
+}
+
+.Line2{
+    width: 70px;
+    height: 0px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 0vh;
+    transition: flex-grow .7s;
+    
+    border: 3px solid #FFFFFF;
+}
+
+.Intro{
+    font-family: 'Red Hat Display', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0;
+	margin-bottom: 20.5vh;
+	font-size: 240px;
+	line-height: 1.1;
+	color: rgb(255, 255, 255);
+}
+
+.Intro2{
+    font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	padding: 0;
+	font-size: 100px;
+	line-height: 1.1;
+	color: rgb(255, 255, 255);
+}
+
+.Name{
+    overflow:hidden;
+    white-space: nowrap;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	padding: 0;
+	font-size: 100px;
+	line-height: 1.1;
+	color: rgb(255, 255, 255);
+}
+
+.h1{
+    font-family: 'Red Hat Display', sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	padding: 0;
+	margin-top: 20vh;
+	font-size: 240px;
+	line-height: 1.1;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+
+/*.Staircase2{
+    position: absolute;
+    width: 150px;
+    height: 0px;
+    left: 1499px;
+    top: 756px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(-40.44deg);
+}
+
+.Staircase22{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 1499px;
+    top: 756px;
+    
+    border: 1px solid #FFFFFF;
+    transform: rotate(-130.44deg);
+}
+
+.Staircase23{
+    position: absolute;
+    width: 295px;
+    height: 0px;
+    left: 1176px;
+    top: 833px;
+    
+    border: 1px solid #FFFFFF;
+    transform: rotate(-40.44deg);
+}
+
+
+.Staircase24{
+    position: absolute;
+    width: 151px;
+    height: 0px;
+    left: 1176.62px;
+    top: 833.02px;
+    
+    border: 1px solid #FFFFFF;
+    transform: rotate(-130.44deg);
+}
+
+.Staircase25{
+    position: absolute;
+    width: 151px;
+    height: 0px;
+    left: 1192.83px;
+    top: 620.79px;
+    
+    border: 1px solid #FFFFFF;
+    transform: rotate(139.56deg);
+} */
+
+.Line3{
+    width: 70px;
+    height: 0px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 0vh;
+    transition: flex-grow .7s;
+    
+    border: 1px solid #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a:hover{
+    color:#f8df00;
+}
+/* .arrowright{
+    height: 10%;
+    width: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: flex-grow .7s; 
+
+
+}
+.arrowleft{
+    height: 10%;
+    width: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: flex-grow .7s;  
+}
+
+
+
+
+
