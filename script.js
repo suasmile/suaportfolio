@@ -131,8 +131,19 @@ $("document").ready(function(){
 
   $( ".Line2" ).click(function() {
     window.location.href = "https://suasmile.cargo.site/";    
-  
-  });
+});
+
+$( ".Line3" ).click(function() {
+  window.location.href = "https://suasmile.cargo.site/";    
+});
+
+ $( "#landing1" ).click(function() {
+    window.location.href = "https://suasmile.cargo.site/";    
+});
+
+$( "#landing2" ).click(function() {
+  window.location.href = "https://suasmile.cargo.site/";    
+});
 
 
    }else{
